@@ -1,14 +1,14 @@
 public class DylanFeature {
 
-    public int fizzBuzz(int n) {
+    public String fizzBuzz(int n) {
         if (n % 15 == 0) {
-            return 1;
+            return "FizzBuzz";
         } else if (n % 3 == 0) {
-            return 3;
+            return "Fizz";
         } else if (n % 5 == 0) {
-            return 5;
+            return "Buzz";
         } else {
-            return n;
+            return "It's not!";
         }
     }
 }
