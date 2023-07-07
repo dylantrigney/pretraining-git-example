@@ -1,8 +1,7 @@
 public class DylanFeature {
 
-    
     public int fizzBuzz(int n) {
-        if (n % 3 == 0 && n % 5 == 0) {
+        if (n % 15 == 0) {
             return 1;
         } else if (n % 3 == 0) {
             return 3;
@@ -13,6 +12,3 @@ public class DylanFeature {
         }
     }
 }
-
-
-
