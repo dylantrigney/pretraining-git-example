@@ -11,4 +11,13 @@ public class DylanFeature {
             return "It's not!";
         }
     }
+
+    private boolean isPlindrome(String input) {
+        String inputWord = input.toLowerCase();
+        StringBuilder reversedWord = new StringBuilder(inputWord).reverse();
+        if (inputWord.equals(reversedWord.toString())) {
+            return true;
+        }
+        return false;
+    }
 }
